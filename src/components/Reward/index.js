@@ -48,7 +48,9 @@ class Reward extends Component{
           <div className="wechat">
             <img src={require("../../image/WechatReward.png")} alt="wechat"/>
           </div>
-          <div className="zhifubao"></div>
+          <div className="zfb">
+            <img src={require("../../image/zfbReward.jpg")} alt="zfb"/>  
+          </div>
         </Drawer>
       </React.Fragment>
     )
