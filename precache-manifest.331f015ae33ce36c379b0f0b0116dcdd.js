@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c13e105f5fcc25ae35f5f4d78fe2ae81",
+    "revision": "42a884649b56a7fa363cda9b79cb75ad",
     "url": "/happy-birthday/index.html"
   },
   {
-    "revision": "8b7d7b76edbe1aa2af2a",
+    "revision": "e47446347bf04fddea24",
     "url": "/happy-birthday/static/css/2.cc2cd15e.chunk.css"
   },
   {
-    "revision": "e825f948e8f75c53b445",
-    "url": "/happy-birthday/static/css/main.83029deb.chunk.css"
+    "revision": "1772dce4cadb4694672e",
+    "url": "/happy-birthday/static/css/main.1f34b611.chunk.css"
   },
   {
-    "revision": "8b7d7b76edbe1aa2af2a",
-    "url": "/happy-birthday/static/js/2.84530f94.chunk.js"
+    "revision": "e47446347bf04fddea24",
+    "url": "/happy-birthday/static/js/2.6da3a0f6.chunk.js"
   },
   {
-    "revision": "e825f948e8f75c53b445",
-    "url": "/happy-birthday/static/js/main.79d760d4.chunk.js"
+    "revision": "1772dce4cadb4694672e",
+    "url": "/happy-birthday/static/js/main.aa78084d.chunk.js"
   },
   {
     "revision": "f984a2eaddb9e8d5ee2c",
@@ -510,10 +510,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "62a1cb30db170ffbe44b8c390d714ca0",
     "url": "/happy-birthday/static/media/chicken.62a1cb30.gif"
-  },
-  {
-    "revision": "b110c207c33b58228fbc117aded63904",
-    "url": "/happy-birthday/static/media/close.b110c207.png"
   },
   {
     "revision": "51a0bf65564ff267db2ba1c66eac7ede",

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/happy-birthday/static/css/main.83029deb.chunk.css",
-    "main.js": "/happy-birthday/static/js/main.79d760d4.chunk.js",
-    "main.js.map": "/happy-birthday/static/js/main.79d760d4.chunk.js.map",
+    "main.css": "/happy-birthday/static/css/main.1f34b611.chunk.css",
+    "main.js": "/happy-birthday/static/js/main.aa78084d.chunk.js",
+    "main.js.map": "/happy-birthday/static/js/main.aa78084d.chunk.js.map",
     "runtime~main.js": "/happy-birthday/static/js/runtime~main.b1b52b95.js",
     "runtime~main.js.map": "/happy-birthday/static/js/runtime~main.b1b52b95.js.map",
     "static/css/2.cc2cd15e.chunk.css": "/happy-birthday/static/css/2.cc2cd15e.chunk.css",
-    "static/js/2.84530f94.chunk.js": "/happy-birthday/static/js/2.84530f94.chunk.js",
-    "static/js/2.84530f94.chunk.js.map": "/happy-birthday/static/js/2.84530f94.chunk.js.map",
+    "static/js/2.6da3a0f6.chunk.js": "/happy-birthday/static/js/2.6da3a0f6.chunk.js",
+    "static/js/2.6da3a0f6.chunk.js.map": "/happy-birthday/static/js/2.6da3a0f6.chunk.js.map",
     "index.html": "/happy-birthday/index.html",
-    "precache-manifest.45fb0de7593f9c65f07368a1d7240e39.js": "/happy-birthday/precache-manifest.45fb0de7593f9c65f07368a1d7240e39.js",
+    "precache-manifest.331f015ae33ce36c379b0f0b0116dcdd.js": "/happy-birthday/precache-manifest.331f015ae33ce36c379b0f0b0116dcdd.js",
     "service-worker.js": "/happy-birthday/service-worker.js",
     "static/css/2.cc2cd15e.chunk.css.map": "/happy-birthday/static/css/2.cc2cd15e.chunk.css.map",
-    "static/css/main.83029deb.chunk.css.map": "/happy-birthday/static/css/main.83029deb.chunk.css.map",
+    "static/css/main.1f34b611.chunk.css.map": "/happy-birthday/static/css/main.1f34b611.chunk.css.map",
     "static/media/1.mp4": "/happy-birthday/static/media/1.0aa30c87.mp4",
     "static/media/10.mp4": "/happy-birthday/static/media/10.7d377f49.mp4",
     "static/media/10.jpg": "/happy-birthday/static/media/10.cc0bbbd0.jpg",
@@ -135,7 +135,6 @@
     "static/media/avatarchen.jpg": "/happy-birthday/static/media/avatarchen.6f51b410.jpg",
     "static/media/avatarhu.jpg": "/happy-birthday/static/media/avatarhu.e02988c5.jpg",
     "static/media/chicken.gif": "/happy-birthday/static/media/chicken.62a1cb30.gif",
-    "static/media/style.scss": "/happy-birthday/static/media/close.b110c207.png",
     "static/media/heart.png": "/happy-birthday/static/media/heart.51a0bf65.png"
   }
 }
