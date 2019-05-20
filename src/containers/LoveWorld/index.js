@@ -51,7 +51,8 @@ class LoveWorld extends Component {
         return (
             <div className="love-world">
                 <BalloonBackGround></BalloonBackGround>
-                <Layout className="layout-container">
+                <div className="layout-wrapper">
+                  <Layout className="layout-container">
                     <Header id="love-world-header" className="header-wrapper">
                         <span className="title">Our Love Story</span>
                         <nav className="nav-wrapper">
@@ -69,7 +70,8 @@ class LoveWorld extends Component {
                         <Route path={`${this.props.match.path}/Record`} component={Record}></Route>
                         <Reward/>
                     </Content>
-                </Layout>
+                  </Layout>
+                </div>
             </div>
         )
     }

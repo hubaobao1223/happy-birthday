@@ -41,7 +41,7 @@ function allStories(stories = [], action) {
   currentState.loveWorldItems.forEach(item => {
     storyList.push(item.story)
   })
-  return allStories
+  return storyList
 }
 
 function currentDetailItem(detailItem = getDefaultDetailItem(), action) {
