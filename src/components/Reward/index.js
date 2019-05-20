@@ -45,6 +45,8 @@ class Reward extends Component{
           onClose={this.onClose.bind(this)}
           placement="left"
           >
+          <p>感！动！了！吗！</p>
+          <p>感动了就快快打赏</p>
           <div className="wechat">
             <img src={require("../../image/WechatReward.png")} alt="wechat"/>
           </div>
