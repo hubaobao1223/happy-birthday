@@ -1,0 +1,63 @@
+
+.puppy-wrapper {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  .puppy-head {
+      position: relative;
+      .face {
+          width: 100px;
+          height: 80px;
+          background: #eaeae5;
+          border-radius: 40% 40% 60% 60%;
+      }
+      .left-ear {
+          .left-big-part {
+              display: inline-block;
+              position: absolute;
+              left: -10px;
+              top: -5px;
+              width: 40px;
+              height: 25px;
+              border-radius: 40%;
+              background: #ab7107;
+              transform: rotate(-50deg);
+          }
+          .left-small-part {
+              display: inline-block;
+              position: absolute;
+              left: 15px;
+              top: -13px;
+              width: 20px;
+              height: 30px;
+              border-radius: 50%;
+              background: #ab7107;
+              transform: rotate(-45deg);
+          }
+      }
+      .right-ear {
+          .right-big-part {
+              display: inline-block;
+              position: absolute;
+              right: -10px;
+              top: -5px;
+              width: 40px;
+              height: 25px;
+              border-radius: 40%;
+              background: #ab7107;
+              transform: rotate(50deg);
+          }
+          .right-small-part {
+              display: inline-block;
+              position: absolute;
+              right: 15px;
+              top: -13px;
+              width: 20px;
+              height: 30px;
+              border-radius: 50%;
+              background: #ab7107;
+              transform: rotate(45deg);
+          }
+      }
+  }
+}

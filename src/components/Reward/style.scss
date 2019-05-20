@@ -1,0 +1,29 @@
+.reward-drawer{
+  .wechat{
+    width:90%;
+    margin:100px auto;
+    >img{
+      max-width: 100%;
+    }
+  }
+}
+
+.reward-button{
+  position: fixed;
+  bottom:10%;
+  right:5%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: orange;
+  color: #000;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.popover-content{
+  width: 200px;
+}

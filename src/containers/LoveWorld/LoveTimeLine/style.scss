@@ -1,0 +1,44 @@
+.content-top {
+  position: relative;
+  width: 100%;
+  height: 2rem;
+  border-bottom: 0.03rem solid rgba(0,0,0,0.2);
+  .content-top-left,
+  .content-top-right {
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      text-align: center;
+      .avatar {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          width: 1rem;
+          height: 1rem;
+          margin: -0.5rem 0 0 -0.5rem;
+      }
+      .text {
+          position: absolute;
+          bottom: 0.2rem;
+          transform: translateX(-50%);
+      }
+  }
+  .content-top-left {
+      left: 0;
+  }
+  .content-top-right {
+      left: 50%;
+  }
+  .heart-img {
+      position: absolute;
+      left: 50%;
+      top: 100%;
+      transform: translate(-50%, -50%) scale(0.8, 0.8);
+      z-index: 1;
+  }
+}
+.content-main {
+  position: relative;
+  flex: 1;
+  padding-top: 0.5rem;
+}

@@ -1,0 +1,112 @@
+.envelope-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  .cake {
+      position: absolute;
+      left: 5%;
+      bottom: 5%;
+      max-width: 3rem;
+  }
+  .fly-bird {
+      position: absolute;
+      transform: translateX(-100%);
+      left: 35%;
+      top: 2%;
+      height:30%;
+      z-index: 1;
+      img {
+          max-height:100%;
+      }
+      animation: fly 10s linear;
+      @keyframes fly {
+          0% {
+              display: none;
+              left: 100%;
+              top: 10%;
+          }
+          1% {
+              display: block;
+              left: 100%;
+              top: 10%;
+          }
+          33% {
+              left: 60%;
+              top: 60%;
+              transform: translate(100%, 5%) rotateY(40deg) scale(1.1, 1.1);
+          }
+          66% {
+              left: 30%;
+              top: 30%;
+              transform: translate(100%, 5%) rotateY(60deg) scale(1.2, 1.2);
+          }
+          100% {
+            left: 35%;
+            top: 2%;
+          }
+      }
+  }
+  .envelope-text-show {
+      position: absolute;
+      left: 50%;
+      top: 20%;
+      width: 40%;
+      height: 40%;
+      padding: 5%;
+      font-size: 0.16rem;
+      text-align: left;
+      transform: translateX(-50%) rotate(-5deg);
+      border: 2px solid #77aaae;
+      border-radius: 0.1rem;
+      animation: showBorder 15s linear;
+      @keyframes showBorder {
+          0% {
+              border-color: transparent;
+          }
+          66% {
+              border-color: transparent;
+          }
+          100% {
+              border-color: #77aaae;
+          }
+      }
+  }
+
+  @media screen and (min-width: 374px) and (max-width:767px) {
+    .fly-bird {
+      left:48%;
+      top:-3%;
+      animation: fly1 10s linear;
+      @keyframes fly1 {
+          0% {
+              display: none;
+              left: 100%;
+              top: 10%;
+          }
+          1% {
+              display: block;
+              left: 100%;
+              top: 10%;
+          }
+          33% {
+              left: 60%;
+              top: 60%;
+              transform: translate(100%, 5%) rotateY(40deg) scale(1.1, 1.1);
+          }
+          66% {
+              left: 30%;
+              top: 30%;
+              transform: translate(100%, 5%) rotateY(60deg) scale(1.2, 1.2);
+          }
+          100% {
+              left:48%;
+              top:-3%;
+          }
+      }
+    }
+     
+     .envelope-text-show{
+        width:90%;
+     }
+  }
+}

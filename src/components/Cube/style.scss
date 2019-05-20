@@ -1,0 +1,64 @@
+$cube-size :1rem;
+.cube-box {
+    position: absolute;
+    width: $cube-size;
+    height: $cube-size;
+    left: 50%;
+    top: 50%;
+    font-size: 0.12rem;
+    text-align: center;
+    line-height: $cube-size/2;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d; //创造3d空间
+    perspective: 10rem; //设置景深
+    // -webkit-animation: switchCubes 30s infinite;
+    div {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 1px solid white;
+        background: rgba(220, 33, 11, 0.5);
+        &:nth-child(1) {
+            //前
+            transform: translateZ($cube-size/2);
+        }
+        &:nth-child(2) {
+            //后
+            transform: translateZ(-$cube-size/2);
+        }
+        &:nth-child(3) {
+            //左
+            transform: rotateY(-90deg) translateZ($cube-size/2);
+        }
+        &:nth-child(4) {
+            //右
+            transform: rotateY(90deg) translateZ($cube-size/2);
+        }
+        &:nth-child(5) {
+            //上
+            transform: rotateX(90deg) translateZ($cube-size/2);
+        }
+        &:nth-child(6) {
+            //下
+            transform: rotateX(-90deg) translateZ($cube-size/2);
+        }
+    }
+}
+
+@-webkit-keyframes switchCubes {
+    0% {
+        -webkit-transform: rotateX(0deg);
+    }
+    25% {
+        -webkit-transform: rotateX(90deg);
+    }
+    50% {
+        -webkit-transform: rotateX(180deg);
+    }
+    75% {
+        -webkit-transform: rotateX(270deg);
+    }
+    100% {
+        -webkit-transform: rotateX(360deg);
+    }
+}

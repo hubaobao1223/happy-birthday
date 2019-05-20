@@ -1,0 +1,86 @@
+
+.timeline-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  .vertical-line {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 0;
+      height: 110%;
+      border-left: 0.02rem solid rgba(0, 0, 0, 0.2);
+  }
+  .timeline-item {
+      position: relative;
+      width: 50%;
+      height: 2rem;
+      // border:0.01rem solid #000;
+      .point {
+          position: absolute;
+          top: calc( 30% - 0.1rem);
+          display: inline-block;
+          width: 0.2rem;
+          height: 0.2rem;
+          border-radius: 50%;
+          background: pink;
+      }
+      .horizon-line {
+          position: absolute;
+          top: 30%;
+          width: 30%;
+          height: 0;
+          border-bottom: 0.01rem solid pink;
+          span {
+              display: inline-block;
+              transform: translateY(-100%);
+          }
+      }
+      .item-content {
+          display: flex;
+          position: absolute;
+          top: 15%;
+          width: 70%;
+          height: 70%;
+          padding: 2%;
+          background-color: rgba(255, 192, 203, 0.2);
+          color: #000;
+          font-size: 0.14rem;
+          p,.ant-typography {
+            text-align: left;
+            height: 100%;
+            overflow: hidden;
+            line-height: 36px;
+            color: #c7c4c4;
+          }
+          .avatar{
+            height:100%;
+            margin-right: 0.15rem;
+          }
+      }
+  }
+  .timeline-item:nth-child(even) {
+      left: 50%;
+      .point {
+          left: -0.1rem;
+      }
+      .horizon-line {
+          left: 0;
+      }
+      .item-content {
+          left: 30%;
+      }
+  }
+  .timeline-item:nth-child(odd) {
+      left: 0;
+      .point {
+          right: -0.1rem;
+      }
+      .horizon-line {
+          right: 0;
+      }
+      .item-content {
+          right: 30%;
+      }
+  }
+}
