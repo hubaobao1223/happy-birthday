@@ -36,6 +36,11 @@
       transform: translate(-50%, -50%) scale(0.8, 0.8);
       z-index: 1;
   }
+  @media screen and (min-width: 374px) and (max-width:767px) {
+    .heart-img{
+        width:30%;
+    }
+  }
 }
 .content-main {
   position: relative;
